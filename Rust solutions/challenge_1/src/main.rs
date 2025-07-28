@@ -28,10 +28,9 @@ fn part2(a : &Vec<u32>, b : &Vec<u32>) -> u32 {
     let b_counts: HashMap<&u32, usize> = b.iter().counts();
 
     a.iter()
-        .map(|x|
-            *x *
-            *b_counts
-                    .get(x)
+        .map(|&x|
+            x * *b_counts
+                    .get(&x)
                     .unwrap_or(&0) as u32
         )
         .sum()
