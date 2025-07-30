@@ -1,0 +1,1 @@
+C:\Users\Cody\Documents\Advent\ of\ code\ 2024\Advent\ of\ code\ 2024\AOC_2024\Rust\ solutions\challenge_2\target\debug\challenge_2.exe: C:\Users\Cody\Documents\Advent\ of\ code\ 2024\Advent\ of\ code\ 2024\AOC_2024\Rust\ solutions\challenge_2\src\main.rs
